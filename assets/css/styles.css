@@ -1,0 +1,99 @@
+html {
+  --foreground-color: #f4f4f4;
+  --background-color: #191919;
+  --footer-color: #333;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  color: var(--foreground-color);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.header-wrapper {
+  background: url(https://image.ibb.co/gzOBup/showcase.jpg) gray;
+  background-repeat: no-repeat;
+  background-size: scale;
+  background-position: 0px -190px;
+  background-blend-mode: darken;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.2rem;
+}
+
+.text {
+  line-height: 1.7;
+}
+
+.header-child {
+  margin: 10px 0;
+  max-width: 300px;
+}
+
+footer {
+  background-color: var(--footer-color);
+  padding: 35px;
+}
+
+.resources {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 70px;
+}
+
+.resources-child {
+  padding: 0 10px;
+}
+
+.resources-child > p {
+  max-width: 300px;
+}
+
+.resources-child > i ~ * {
+  margin-top: 20px;
+}
+
+.about-us {
+  background-color: var(--foreground-color);
+  color: var(--background-color);
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding: 90px 0;
+}
+
+.about-us > div > p {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.about-us > i {
+  padding: 0 175px;
+}
+
+i {
+  font-size: 3rem;
+}
+
+.fa-laptop {
+  font-size: 9rem;
+}
+
+.fa-t {
+  font-size: 8rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
